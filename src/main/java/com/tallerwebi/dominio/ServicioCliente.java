@@ -1,4 +1,8 @@
 package com.tallerwebi.dominio;
+
+import org.springframework.stereotype.Service;
+
+
 public interface ServicioCliente {
     //PODER VER RUTINAS ASIGNADAS
     //Historial de rutinas.
