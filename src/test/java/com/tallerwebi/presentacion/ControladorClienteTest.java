@@ -15,7 +15,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.tallerwebi.dominio.ServicioLogin;
-import com.tallerwebi.dominio.Usuario;
+import com.tallerwebi.dominio.*;
 
 public class ControladorClienteTest {
     private ControladorCliente controladorCliente;
@@ -31,7 +31,7 @@ public class ControladorClienteTest {
         requestMock = mock(HttpServletRequest.class);
 		sessionMock = mock(HttpSession.class);
 		servicioClienteMock = mock(ServicioCliente.class);
-		controladorCliente = new ControladorLogin(servicioClienteMock);
+		controladorCliente = new ControladorCliente(servicioClienteMock);
     }
 
     @Test
