@@ -1,0 +1,16 @@
+
+.nav{
+    background-color: rgb(183, 117, 246);
+    color: white;
+    max-height: max-content;
+}
+.nav ul{
+    list-style: none;
+
+}
+.nav ul li{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
